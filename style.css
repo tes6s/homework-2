@@ -1,1 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 1%;
+    height: 50px;
+    
+
+}
+
+.logo {
+    cursor: pointer;
+    width: 160px;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 20px 40px;
+}
+
+button:hover {
+    background-color: rgba(red, green, blue, alpha);
+}
+
+button {
+    position: relative;
+left: 50%;
+transform: translate(-50%, 0);
+}
+
+img {
+ 
+ width: 180px;
+ margin-left: 40px;
+}
